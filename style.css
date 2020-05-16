@@ -1,0 +1,39 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  }
+
+  h1{
+  	color: white;
+  	text-align: center;
+  	position:fixed;
+  	bottom:100px;
+  	left:50px;
+  	right:50px;
+  }
+
+.btn{
+border-radius: 300px;
+}
+
+.btn-primary{
+background-color: orange;
+border-color:orange;
+}
+
+.btn-primary:hover{
+background-color:orange;
+border-color:orange;
+border-width:6px;
+}
+
+h1:hover{
+	transform:scale(1.2);
+	transition:2s;
+}
+
